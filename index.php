@@ -16,4 +16,6 @@ $res = $stmt->fetch();
 echo $res['libelle'];
 $pdo = null;
 
+
+
 ?>
