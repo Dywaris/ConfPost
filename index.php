@@ -14,6 +14,7 @@
 
  $res = $stmt->fetch();
 echo $res['libelle'];
+echo "il y a un commit par ici";
 $pdo = null;
 
 
