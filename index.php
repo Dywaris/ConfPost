@@ -3,8 +3,8 @@
  $db="conf_post";
  $dbhost="localhost";
  $dbport=3306;
- $dbuser="julien";
- $dbpasswd="root";
+ $dbuser="root";
+ $dbpasswd="";
 
  $pdo = new PDO('mysql:host='.$dbhost.';port='.$dbport.';dbname='.$db.'', $dbuser, $dbpasswd);
  $pdo->exec("SET CHARACTER SET utf8");
@@ -16,5 +16,14 @@
 echo $res['libelle'];
 $pdo = null;
 
+/**
+$db="conf_post";
+$dbhost="localhost";
+$dbport=3306;
+$dbuser="julien";
+$dbpasswd="root"; */
 
 ?>
+
+
+
