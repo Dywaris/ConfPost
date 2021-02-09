@@ -2,7 +2,7 @@
 
  $db="conf_post";
  $dbhost="localhost";
- $dbport=3306;
+ $dbport=3307;
  $dbuser="root";
  $dbpasswd="";
 
